@@ -2,7 +2,7 @@
 
 A simple, stylish, and responsive weather application that shows real-time weather data based on city name using the OpenWeatherMap API.
 
-![weather-app-screenshot](./screenshot.png) <!-- Optional if you have a screenshot -->
+![image alt]() <!-- Optional if you have a screenshot -->
 
 ---
 Live Demo!!

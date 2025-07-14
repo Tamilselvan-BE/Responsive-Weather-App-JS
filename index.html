@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather App</title>
+  <link rel="stylesheet" href="bootstrap.min.css"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container mt-5">
+    <div class="weather-card">
+      <!-- Search Bar -->
+      <div class="search input-group mb-4">
+        <input type="text" class="form-control" placeholder="Enter city name" spellcheck="false">
+        <button class="btn btn-primary">Search</button>
+      </div>
+
+      <!-- Weather Details (Hidden Initially) -->
+      <div class="details d-none">
+        <h2 class="mb-3">Today's Weather</h2>
+        <img src="image/cloudy_sunny.png" class="weather-image" alt="Weather Icon"/>
+        <div class="temp">28°C</div>
+
+        <div class="row mt-4">
+          <div class="col-md-6 mb-3">
+            <h5>Location</h5>
+            <img src="image/location.png" alt="Map Icon" style="width: 100px;" />
+            <p class="city mt-2">City, Country</p>
+          </div>
+          <div class="col-md-6 mb-3">
+            <h5>Humidity</h5>
+            <div class="icon-text">
+              <img src="image/humidity.png" alt="Humidity Icon" />
+              <span class="humidity">--%</span>
+            </div>
+            <p class="mt-2">Relative Humidity</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,8 +1,15 @@
 # 🌦️ Responsive Weather App
 
 A simple, stylish, and responsive weather application that shows real-time weather data based on city name using the OpenWeatherMap API.
+Desktop View
+![image alt](des-1.jpeg)
+![image alt](des-2.jpeg)
+![image alt](des-3.jpeg)
 
-![image alt]() <!-- Optional if you have a screenshot -->
+Mobile View
+![image alt](mob-2.jpeg)
+![image alt](mob-1.jpeg)
+<!-- Optional if you have a screenshot -->
 
 ---
 Live Demo!!
